@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBazaarApp", "MediaBazaarSolution\MediaBazaarApp.csproj", "{DDC21E6C-D0B5-4BED-B450-4B26615647BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC21E6C-D0B5-4BED-B450-4B26615647BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC21E6C-D0B5-4BED-B450-4B26615647BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC21E6C-D0B5-4BED-B450-4B26615647BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC21E6C-D0B5-4BED-B450-4B26615647BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFBB98EB-1B13-4BD3-9CBC-A756B41F8CDD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,122 @@
+
+.profilePicture{
+    width:8%;
+    float: left;
+    /*padding-right: 25px;*/
+    padding-top: 80px;
+    opacity: 0.9;
+    margin-left: 50px;
+    /*background-color: powderblue;*/
+}
+.columnProfile{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.titleRow::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.rowProfile::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.myProfileTitle{
+    float: right;
+    width: 85%;
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    padding-top: 90px;
+    padding-left: 0px;
+    text-align: left;
+}
+.profileInfo{
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 150%;
+    float: left;
+    width: 50%;
+    padding: 5px;
+    padding-left: 70px;
+    padding-top: 50px;
+    line-height: 150%;
+}
+
+
+.shiftInfo{
+    color: white;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    float: left;
+    width: 90%;
+    padding: 5px;
+    padding-left: 70px;
+    padding-top: 20px;
+    line-height: 100%;
+}
+
+.btnLogin{
+    margin: 10px;
+}
+.container .btn {
+    margin-top: 0px;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 50px;
+}
+
+.shiftColumn{
+    float: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+.shiftColumn::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#months{
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #ea7d10;
+    color: white;
+}
+.lbox{
+    padding-left: 5px;
+    padding-right: 40px;
+    font-size: 20px;
+    background-color: #ea7d10;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.shiftname{
+    color: black;
+    font-weight: bold;
+}
+
+.ctrctInfo{
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    padding-left: 70px;
+    padding-top: 120px;
+    margin-bottom: 400px;
+}
+
+

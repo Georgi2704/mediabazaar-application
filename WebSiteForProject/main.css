@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", sans-serif;
+}
+header{
+    position: fixed;
+    background: white;
+    width: 100%;
+    display: table;
+    clear: both;
+    margin-top:0px;
+    margin-bottom:0px;
+    z-index: 4;
+}
+li a {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul{
+    position: sticky;
+
+}
+.logo{
+    padding: 8px;
+    width: 150px;
+    float: right;
+}
+
+nav {
+    float: left;
+    margin-right: 75px;
+    margin-top: 10px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    padding: 12px 0;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    transition: background-color;
+    color: #1a1a1a;
+    background-color: silver;
+}
+.homeContent{
+    position: center;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.footer{
+    clear: both;
+    text-align: right;
+    color: gray;
+    padding-bottom: 5px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.homeImage{
+    width: 100%;
+}
+
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 300%;
+}
+.column{
+    float: left;
+    width: 60%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logos{
+    margin-left: 40%;
+    padding: 5px;
+    padding-left: 70px;
+    padding-top: 100px;
+    color: white;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+.contactText{
+    color: black;
+    width: 180px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: auto;
+    padding: 8px;
+    margin-top: 100px;
+    margin-left: 35%;
+    padding-bottom: 20px;
+}
+
+.homePageContent {
+    padding-top: 100px;
+    color: black;
+}
+.homePageContent h1{
+    font-size: 400%;
+    text-align: center;
+}
+
+.homePageParagraphs{
+    text-align: center;
+    padding-bottom: 600px;
+}
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+#welcome{
+    text-align: center;
+    font-size: 400%;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+
+.columnC {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    padding-bottom: 0px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.rowC:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#initial{
+    text-align: right;
+    float: left;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

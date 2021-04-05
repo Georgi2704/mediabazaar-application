@@ -1,0 +1,57 @@
+body{
+    color: black;
+    background-image: url("mbImages/bck2small.jpg");
+    margin: 90px;
+    text-align: center;
+    padding-right: 200px;
+}
+form{
+    margin: 40px;
+
+    display: inline-block;
+    backface-visibility: visible;
+}
+button{
+    border-radius: 6px;
+    font-family: "Trebuchet MS", sans-serif;
+    width: 150px;
+    height: 45px;
+    margin: 5px;
+}
+button:hover {
+    position: relative;
+    background-color: darkgrey;
+}
+.logo{
+    padding: 8px;
+    width: 150px;
+    float: left;
+}
+.container2{
+    font-family: "Trebuchet MS",sans-serif;
+}
+h1{
+    font-family: "Trebuchet MS",sans-serif;
+    font-size: 300%;
+}
+.tbUserInput{
+    margin: 5px;
+}
+a{
+    color: white;
+}
+
+.textboxInside{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 125%;
+    padding: 8px;
+}
+
+.btnLogin{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 125%;
+    margin: 10px;
+}
+.logoutBody{
+    padding-right: 10px;
+}
